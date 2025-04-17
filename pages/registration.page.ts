@@ -30,11 +30,6 @@ export class RegistrationPage {
         return this.page.locator(`//input[@id='gender-radio-${genderRadioNumber}']`);
     }
 
-    // async registrationWithRequiredFields(firstname: string, lastname: string, genderRadioNumber: number) {
-    //     await this.genderRadioBtn(genderRadioNumber).check();
-    //     await expect(this.genderRadioBtn(genderRadioNumber)).toBeChecked();
-    // }
-
     async fillFirstName(firstName: string) {
         await this.inputFirstName.fill(firstName);
     }
