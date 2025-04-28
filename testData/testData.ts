@@ -21,7 +21,7 @@ export const birthMonth: string = 'January';
 export const birthYear: string = '1950';
 
 // Address
-export const currentAddres: string = 
+export const currentAddress: string = 
   '70 2/3 Washington Square South, New York, NY 10012, United States';
 export const state: string = 'NCR';
 export const city: string = 'Delhi';
@@ -29,4 +29,5 @@ export const city: string = 'Delhi';
 // Miscellaneous
 export const successMessage: string = 'Thanks for submitting the form';
 export const namePicture: string = 'User-Avatar-Profile-PNG-Photos.png';
-export const hobbySport: string = 'Sport';
+export const patchPicture: string = 'fixtures/User-Avatar-Profile-PNG-Photos.png'
+export const hobbySports: string = 'Sports';
